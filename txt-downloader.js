@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name				txt-downloader
-// @namespace		https://github.com/LimboDzz/
-// @version			1.0.0
-// @description	Download books as txt from certain websites
-// @author			dzz
-// @match				*://*.dmshuba.com/*n/*/*.html
-// @match				*://*.yqshuwang.com/*n/*/*.html
-// @icon				none
-// @grant				none
-// @license			MIT
+// @name         txt-downloader
+// @namespace    https://github.com/LimboDzz/
+// @version      1.0.0
+// @description  Download books as txt from certain websites
+// @author       dzz
+// @match        *://*.dmshuba.com/*n/*/*.html
+// @match        *://*.yqshuwang.com/*n/*/*.html
+// @icon         none
+// @grant        none
+// @license      MIT
 // ==/UserScript==
 
 let downloadButton
