@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name         txt-downloader
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  My script to download books from certain websites
-// @author       EurekaMomenttttt
-// @match        *://*.dmshuba.com/*n/*/*.html
-// @match        *://*.yqshuwang.com/*n/*/*.html
-// @icon         none
-// @grant        none
+// @name				txt-downloader
+// @namespace		https://github.com/LimboDzz/
+// @version			1.0.0
+// @description	Download books as txt from certain websites
+// @author			dzz
+// @match				*://*.dmshuba.com/*n/*/*.html
+// @match				*://*.yqshuwang.com/*n/*/*.html
+// @icon				none
+// @grant				none
+// @license			MIT
 // ==/UserScript==
 
 let downloadButton
