@@ -6,39 +6,39 @@
 
 ### 2 ways to write userscripts in vscode
 
-#### Webhook
+1. Webhook
 
-1. Sign in Greasy Fork
+   1. Sign in Greasy Fork
 
-2. User control panel - setup webhook
+   2. User control panel - setup webhook
 
-   ![setup-github-webhook](assets\setup-github-webhook.png)
+      ![setup-github-webhook](assets\setup-github-webhook.png)
 
-3. Publish script - Go to Admin - Source Syncing - Provide github raw url of your js file
+   3. Publish script - Go to Admin - Source Syncing - Provide github raw url of your js file
 
-   ![setup-source-syncing](assets\setup-source-syncing.png)
+      ![setup-source-syncing](assets\setup-source-syncing.png)
 
-#### Require local js file
+2. Require local js file
 
-1. Tampermonkey settings - Allow access to file URLs
+   1. Tampermonkey settings - Allow access to file URLs
 
-   ![assets\allow-access-to-file-URLs.png](assets\allow-access-to-file-URLs.png)
+      ![assets\allow-access-to-file-URLs.png](assets\allow-access-to-file-URLs.png)
 
-2. Save your script file wherever you want in your filesystem.
+   2. Save your script file wherever you want in your filesystem.
 
-3. Add @require inside `==UserScript==` header
+   3. Add @require inside `==UserScript==` header
 
-   - Possible gotcha: Using the file:// URI scheme at the beginning of your @require path is now required.
+      - Possible gotcha: Using the file:// URI scheme at the beginning of your @require path is now required.
 
-     On Windows systems would be:
+      On Windows systems would be:
 
-     `// @require      file://C:\path\to\userscript.user.js`
+      `// @require      file://C:\path\to\userscript.user.js`
 
-     For macOS and \*nix, you need three slashes in a row:
+      For macOS and \*nix, you need three slashes in a row:
 
-     `// @require      file:///path/to/userscript.user.js`
+      `// @require      file:///path/to/userscript.user.js`
 
-   ![assets\require-local-js-file.png](assets\require-local-js-file.png)
+      ![assets\require-local-js-file.png](assets\require-local-js-file.png)
 
 ## Acknowledgments
 
