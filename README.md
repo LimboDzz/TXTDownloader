@@ -14,23 +14,23 @@
 
       ![setup-github-webhook](assets\setup-github-webhook.png)
 
-   3. Publish script - Go to Admin - Source Syncing - Provide github raw url of your js file
+      3. Publish script - Go to Admin - Source Syncing - Provide github raw url of your js file
 
-      ![setup-source-syncing](assets\setup-source-syncing.png)
+         ![setup-source-syncing](assets\setup-source-syncing.png)
 
-2. Require local js file
+   3. Require local js file
 
-   1. Tampermonkey settings - Allow access to file URLs
+      1. Tampermonkey settings - Allow access to file URLs
 
-      ![assets\allow-access-to-file-URLs.png](assets\allow-access-to-file-URLs.png)
+         ![assets\allow-access-to-file-URLs.png](assets\allow-access-to-file-URLs.png)
 
-   2. Save your script file wherever you want in your filesystem.
+      2. Save your script file wherever you want in your filesystem.
 
-   3. Add @require inside `==UserScript==` header
+      3. Add @require inside `==UserScript==` header
 
-      - Possible gotcha: Using the file:// URI scheme at the beginning of your @require path is now required.
+         - Possible gotcha: Using the file:// URI scheme at the beginning of your @require path is now required.
 
-      On Windows systems would be:
+         On Windows systems would be:
 
       `// @require      file://C:\path\to\userscript.user.js`
 
@@ -38,7 +38,7 @@
 
       `// @require      file:///path/to/userscript.user.js`
 
-      ![assets\require-local-js-file.png](assets\require-local-js-file.png)
+      ![assets\require-local-js-file.png](.\assets\require-local-js-file.png)
 
 ## Acknowledgments
 
