@@ -45,3 +45,4 @@
 Inspiration, code snippets, stackoverflow answers, etc.
 
 - [How can I develop my userscript in my favourite IDE and avoid copy-pasting it to the Tampermonkey's editor every time?](https://stackoverflow.com/a/55568568/19419913)
+- [油猴脚本开发从入门到精通 P0 开发环境配置与脚本分发](https://www.bilibili.com/video/BV1Da411Z7s7)
