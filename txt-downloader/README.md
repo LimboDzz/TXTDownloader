@@ -56,4 +56,3 @@ async function download() {
 
 - [x] dmshuba.com
 - [x] yqshuwang.com
-- [ ] tbc...
